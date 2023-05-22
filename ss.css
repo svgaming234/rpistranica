@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    font-family: "Ubuntu", "Calibri Light", Tahoma, sans-serif;
+}
+
+p {
+    font-size: 24px;
+}
+
+mark.green {
+    color: #6CC04A;
+    background: none;
+}
+
+mark.pink {
+    color: #C51A4A;
+    background: none;
+}
+
+summary {
+    padding-left: 20%;
+    font-size: 40px;
+    text-align: left;
+    font-weight: bold;
+}
+
+a {
+    font-size: 20px;
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
+
+h1 {
+    font-size: 64px;
+    text-align: center;
+}
+
+h2 {
+    font-size: 40px;
+    text-align: center;
+}
+
+h3 {
+    font-size: 40px;
+    text-align: center;
+    font-weight: normal;
+}
+
+.news {
+    background-color: rgb(214, 214, 214);
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 39.3%;
+    height: 550px;
+    float: left;
+    margin-left: 10px;
+    border-radius: 5px;
+}
+
+#links {
+    background-color: rgb(214, 214, 214);
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 20%;
+    height: 550px;
+    float: right;
+    border-radius: 5px;
+}
+
+#about {
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: auto;
+    height: auto;
+}
+
+#jsklogo {
+    max-height: 200px;
+    max-width: 200px;
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+.ribbon {
+    --p: 8px;
+    background-color: rgb(214, 214, 214);
+    height: 75px;
+    padding: 0 var(--p);
+    width: 100%;
+    position: relative;
+    right: var(--p);
+}
+
+#projimg {
+    max-height: 150px;
+    max-width: 512px;
+    margin-left: auto;
+    margin-right: 15px;
+    display: block;
+  }
+
+#error {
+    margin: auto;
+    width: 30%;
+    padding: 10px;
+    border: 5px solid #ff0000;
+    text-align: center;
+    border-radius: 5px;
+}
+
+h4 {
+    font-size: 32px;
+    font-weight: bold;
+    text-align: center;
+    padding: 20px;
+}
+
+h5 {
+    font-size: 24px;
+    font-weight: normal;
+    text-align: left;
+    padding: 20px;
+}
+
+.obsimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.gitimg {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+
+.center {
+    margin: auto;
+    width: 50%;
+    border: 5px solid rgb(214, 214, 214);
+    border-radius: 5px;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+

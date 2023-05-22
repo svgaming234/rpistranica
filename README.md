@@ -1,2 +1,2 @@
 # Raspberry Pi neslužbena stranica
-Ovu stranicu napravio sma za školski projekt.
+Ovu stranicu napravio sam za školski projekt.
